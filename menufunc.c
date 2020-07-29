@@ -60,9 +60,6 @@ void isEmptyMenu(struct Stack st)
         {
             input = reprompt(4); //4 valid option 1 or 2
         }
-        if (!isFull(st))
-        {
-        }
         int k = isEmpty(st);
         if (k == 0)
             printf("Stack is not Empty\n");
