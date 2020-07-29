@@ -105,7 +105,7 @@ void pushMenu(struct Stack *st)
     int ret, input, f = 0;
     while (!f)
     {
-        printf("\nWould you like to pop the top of the stack?\n");
+        printf("\nWould you like to push to the top of the stack?\n");
         printf("Enter 1 for yes, 2 for no: ");
         ret = scanf("%d", &input);
         if (ret != 1 || input > 2 || input < 1)
