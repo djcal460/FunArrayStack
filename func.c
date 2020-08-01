@@ -3,7 +3,7 @@
 #include <limits.h>
 #include "func.h"
 
-extern struct stack st;
+extern struct Stack st;
 
 //just pass as local stack since we're not changing anything
 void display(struct Stack st)
